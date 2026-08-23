@@ -40,7 +40,7 @@ UWB 신호로 실내 위치(x, y)를 추정하는 딥러닝 회귀 프로젝트.
 
 ### 모델별 성능 비교
 
-<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/dde3bbff-7a42-444f-bf9a-9120b5eee5a4" />
+<img width="600" height="350" alt="image" src="https://github.com/user-attachments/assets/dde3bbff-7a42-444f-bf9a-9120b5eee5a4" />
 
 | 모델 | RMSE[m] | Median[m] | 90% error[m] | ≤2.0m |
 | --- | --- | --- | --- | --- |
