@@ -42,12 +42,6 @@ UWB 신호로 실내 위치(x, y)를 추정하는 딥러닝 회귀 프로젝트.
 
 <img width="600" height="350" alt="image" src="https://github.com/user-attachments/assets/dde3bbff-7a42-444f-bf9a-9120b5eee5a4" />
 
-| 모델 | RMSE[m] | Median[m] | 90% error[m] | ≤2.0m |
-| --- | --- | --- | --- | --- |
-| DNN | 1.889 | 1.057 | 3.157 | 73.4% |
-| 1D CNN | 1.496 | 0.837 | 2.553 | 81.1% |
-| **2D CNN** | **1.270** | **0.828** | **2.078** | **88.8%** |
-
 ### 오차 분포 비교 (CDF)
 
 <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/7c95f219-4edc-4b8a-bdd6-14db0cea51fe" />
