@@ -40,7 +40,7 @@ UWB 신호로 실내 위치(x, y)를 추정하는 딥러닝 회귀 프로젝트.
 
 ### 모델별 성능 비교
 
-<img width="1618" height="819" alt="image" src="https://github.com/user-attachments/assets/dde3bbff-7a42-444f-bf9a-9120b5eee5a4" />
+<img width="500" height="819" alt="image" src="https://github.com/user-attachments/assets/dde3bbff-7a42-444f-bf9a-9120b5eee5a4" />
 
 | 모델 | RMSE[m] | Median[m] | 90% error[m] | ≤2.0m |
 | --- | --- | --- | --- | --- |
@@ -50,7 +50,7 @@ UWB 신호로 실내 위치(x, y)를 추정하는 딥러닝 회귀 프로젝트.
 
 ### 오차 분포 비교 (CDF)
 
-<img width="1220" height="959" alt="image" src="https://github.com/user-attachments/assets/7c95f219-4edc-4b8a-bdd6-14db0cea51fe" />
+<img width="500" height="959" alt="image" src="https://github.com/user-attachments/assets/7c95f219-4edc-4b8a-bdd6-14db0cea51fe" />
 
 2D CNN(초록)이 전 구간에서 가장 낮은 오차 분포를 보이며, 특히 오차가 큰 구간에서 격차가 벌어집니다 — NLOS 환경의 큰 오차를 효과적으로 억제했음을 의미합니다.
 
@@ -58,13 +58,13 @@ UWB 신호로 실내 위치(x, y)를 추정하는 딥러닝 회귀 프로젝트.
 
 **학습 곡선**
 
-<img width="1085" height="821" alt="image" src="https://github.com/user-attachments/assets/464cd679-6112-49b6-833d-c72d23f0d164" />
+<img width="45%" height="821" alt="image" src="https://github.com/user-attachments/assets/464cd679-6112-49b6-833d-c72d23f0d164" />
 
 train/val loss가 안정적으로 수렴했습니다.
 
 **공간 오차 히트맵**
 
-<img width="905" height="845" alt="image" src="https://github.com/user-attachments/assets/6a20fca7-b51b-41a6-b2d9-2be748ba4ba3" />
+<img width="45%" height="845" alt="image" src="https://github.com/user-attachments/assets/6a20fca7-b51b-41a6-b2d9-2be748ba4ba3" />
 
 측정 경로 전반에서 오차가 대체로 낮게(파란색) 유지되며, 큰 오차 구간이 국소적으로만 나타납니다.
 
